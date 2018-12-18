@@ -1,0 +1,3 @@
+$('#calendar').fullCalendar({
+    defaultView: 'month'
+});
