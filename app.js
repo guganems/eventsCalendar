@@ -1,3 +1,7 @@
-$('#calendar').fullCalendar({
-    defaultView: 'month'
-});
+$(function() {
+
+    $('#calendar').fullCalendar({
+        
+    });
+  
+  });

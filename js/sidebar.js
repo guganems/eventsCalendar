@@ -3,15 +3,13 @@ isOpen = false;
 function openNav() {
     isOpen = true;
     document.getElementById("mySidenav").style.width = "900px";
-    document.getElementById("main").style.marginLeft = "900px";
-    document.getElementById('openSidebar').style.display = 'none';
+    document.getElementById("calendar").style.display = "none";
 }
   
 function closeNav() {
     isOpen = false;
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.getElementById('openSidebar').style.display = 'block';
+    document.getElementById("calendar").style.display = "block";
 }
 
 function toggleNav(){
