@@ -1,7 +1,5 @@
 $(function() {
-
     $('#calendar').fullCalendar({
         
     });
-  
-  });
+});
