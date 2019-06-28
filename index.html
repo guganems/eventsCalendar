@@ -84,7 +84,7 @@
                 <div class="modal-body">
                     <div class="tab-content">
                         <div id="login-form" class="tab-pane fade in active">
-                            <form action="/">
+                            <form id="logForm">
                                 <div class="form-group">
                                     <label for="email">Email:</label>
                                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -96,11 +96,11 @@
                                 <div class="checkbox">
                                     <label><input type="checkbox" name="remember"> Remember me</label>
                                 </div>
-                                <button type="submit" class="btn btn-default">Login</button>
+                                <button id="submitLogin" type="submit" class="btn btn-default">Login</button>
                             </form>
                         </div>
                         <div id="registration-form" class="tab-pane fade">
-                            <form action="/">
+                            <form id="regForm">
                                 <div class="form-group">
                                     <label for="name">Your Name:</label>
                                     <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
@@ -113,7 +113,7 @@
                                     <label for="newpwd">Password:</label>
                                     <input type="password" class="form-control" id="newpwd" placeholder="New password" name="newpwd">
                                 </div>
-                                <button type="submit" class="btn btn-default">Register</button>
+                                <button id="submitRegistration" type="submit" class="btn btn-default">Register</button>
                             </form>
                         </div>
 
@@ -126,5 +126,6 @@
         </div>
     </div>
 <!-- modal end -->
+<script src="js/functions.js"></script>
 </body>
 </html>
